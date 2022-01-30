@@ -11,4 +11,6 @@ while(True):
             regNo['found'] = apiCalls.findVaccineInfo(
                 regNo['name'], regNo['number'])
             utils.printStatus(regNo['found'], regNo['name'])
+        else:
+            print(f"Already found Vaccine card for {regNo['name']}")
     time.sleep(60*duration)
