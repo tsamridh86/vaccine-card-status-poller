@@ -8,24 +8,20 @@ Simple program written in python to poll the nepal govt. website to check if you
 
 ## How to use
 
-1. Open `config.yaml` and add / remove people with thier name and registration number accordingly.
+1. Run:
 
-2. Change `duration` if required, set to a sensible default of 60 mins, any number > 0 is supported ( even decimals ). Must be written in minutes.
+    ```
+    pip install -r requirements.txt 
+    ```
 
-3. Run:
+2. Open `config.yaml` and add / remove people with thier name and registration number accordingly.
+
+3. Change `duration` if required, set to a sensible default of 60 mins, any number > 0 is supported ( even decimals ). Must be written in minutes.
+
+4. Run:
   
   ```
   python main.py
-  ```
-
-  - If you get 
-
-  ```
-  ModuleNotFoundError: No module named 'yaml'
-  ```
-  then, fire this command, and retry.
-  ```
-  pip install pyyaml
   ```
 
 ---
