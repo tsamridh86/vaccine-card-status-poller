@@ -1,5 +1,8 @@
 # Vaccine Card Status Poller
 
+[![CI](https://github.com/tsamridh86/vaccine-card-status-poller/actions/workflows/main.yml/badge.svg)](https://github.com/tsamridh86/vaccine-card-status-poller/actions/workflows/main.yml)
+
+
 Simple program written in python to poll the nepal govt. website to check if your vaccine card has been generated.
 
 **Important: Does not download your vaccine card for you!**
