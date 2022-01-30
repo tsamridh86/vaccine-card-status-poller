@@ -28,8 +28,3 @@ Simple program written in python to poll the nepal govt. website to check if you
   ```
 
 ---
-
-## To do:
-
-1. Download and save the vaccine card.
-2. Ignore people who already got the vaccine card.
